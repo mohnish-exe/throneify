@@ -13,14 +13,14 @@
 
 ### Features
 
-- 🎵 **Themed Playlists** - Curated music collections for each Great House
-- 🗺️ **Location-Based Themes** - Explore playlists inspired by iconic Westeros locations
-- 👤 **Character Profiles** - Discover music through your favorite characters
-- ❄️ **Atmospheric Effects** - Immersive snow effects and animated backgrounds
-- ⭐ **Favorites System** - Save and manage your favorite playlists
-- 🎨 **Modern UI** - Beautiful glassmorphic design with TailwindCSS
-- 📱 **Responsive Design** - Seamless experience across all devices
-- 🔍 **Search Functionality** - Find playlists by house, location, or theme
+-  **Themed Playlists** - Curated music collections for each Great House
+-  **Location-Based Themes** - Explore playlists inspired by iconic Westeros locations
+-  **Character Profiles** - Discover music through your favorite characters
+-  **Atmospheric Effects** - Immersive snow effects and animated backgrounds
+-  **Favorites System** - Save and manage your favorite playlists
+-  **Modern UI** - Beautiful glassmorphic design with TailwindCSS
+-  **Responsive Design** - Seamless experience across all devices
+-  **Search Functionality** - Find playlists by house, location, or theme
 
 ##  Tech Stack
 
@@ -172,7 +172,7 @@ The project uses **shadcn/ui** components including:
 - Tabs, Toast, Tooltip
 - And many more...
 
-## 📱 Pages
+##  Pages
 
 - **Home** - Featured playlists and recommendations
 - **Search** - Search and filter playlists
