@@ -41,7 +41,7 @@
 - **Python-dotenv** - Environment variable management
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
