@@ -1,0 +1,143 @@
+/* Throneify Custom Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  overflow: hidden;
+}
+
+.font-serif {
+  font-family: 'Cinzel', serif;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 119, 6, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(217, 119, 6, 0.8);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Background Map Styling */
+.map-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://customer-assets.emergentagent.com/job_pixelbypixel/artifacts/l4lz9xbk_image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.map-background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 1;
+}
+
+/* Animated Gradient Background */
+.animated-bg {
+  background: linear-gradient(
+    135deg,
+    #0f0f10 0%,
+    #1a1a1d 25%,
+    #2c1810 50%,
+    #1a1a1d 75%,
+    #0f0f10 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Card Hover Effects */
+.playlist-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.playlist-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(217, 119, 6, 0.3);
+}
+
+/* Custom Button Animations */
+button {
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Glow Effect */
+.glow-amber {
+  box-shadow: 0 0 20px rgba(217, 119, 6, 0.5);
+}
+
+/* Text Selection */
+::selection {
+  background-color: rgba(217, 119, 6, 0.3);
+  color: #fbbf24;
+}
+
+/* Loading Animation */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
