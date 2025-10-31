@@ -190,25 +190,6 @@ cd backend
 pytest
 ```
 
-## Development Scripts
-
-### Frontend
-
-```bash
-yarn start      # Start development server
-yarn build      # Build for production
-yarn test       # Run tests
-```
-
-### Backend
-
-```bash
-uvicorn server:app --reload              # Development server
-uvicorn server:app --host 0.0.0.0        # Production server
-pytest                                    # Run tests
-black .                                   # Format code
-flake8                                    # Lint code
-```
 
 ## Key Features Explained
 
@@ -241,13 +222,13 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Game of Thrones universe by George R.R. Martin
 - HBO for the iconic series
 - shadcn/ui for the beautiful component library
 - The open-source community
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue on GitHub.
